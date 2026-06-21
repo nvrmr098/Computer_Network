@@ -1,0 +1,35 @@
+2026-05-30 20:48:23,319 - INFO - Server started on 127.0.0.1:5000
+2026-05-30 20:49:21,133 - INFO - leo connected from ('127.0.0.1', 51858)
+2026-05-30 20:49:25,706 - INFO - xylof connected from ('127.0.0.1', 51862)
+2026-05-30 20:49:35,101 - INFO - xylof: Hi Testing
+2026-05-30 20:55:09,599 - INFO - leo disconnected
+2026-05-30 20:55:13,875 - INFO - xylof disconnected
+2026-05-30 20:55:26,680 - INFO - Server shutdown requested
+2026-06-21 23:03:53,920 - INFO - Server started on 127.0.0.1:5000
+2026-06-21 23:04:08,724 - INFO - Incoming connection from ('127.0.0.1', 35736)
+2026-06-21 23:04:12,751 - INFO - User registered: jash
+2026-06-21 23:04:41,471 - INFO - Room created: room_test 110
+2026-06-21 23:04:57,836 - INFO - Incoming connection from ('127.0.0.1', 58508)
+2026-06-21 23:05:03,258 - INFO - User registered: Ketul
+2026-06-21 23:05:37,501 - INFO - Incoming connection from ('127.0.0.1', 52676)
+2026-06-21 23:05:41,429 - INFO - User registered: Harsh
+2026-06-21 23:05:44,652 - INFO - [general] Harsh: /join
+2026-06-21 23:06:03,954 - INFO - Harsh switched from general to room_test 110
+2026-06-21 23:06:20,205 - INFO - Ketul switched from general to room_test 110
+2026-06-21 23:06:24,925 - INFO - [room_test 110] Ketul: HI
+2026-06-21 23:06:38,219 - INFO - [room_test 110] Harsh: Hey! How are you doing?
+2026-06-21 23:06:54,246 - INFO - [general] jash: Hi
+2026-06-21 23:07:14,684 - INFO - jash switched from general to room_test 110
+2026-06-21 23:07:28,370 - INFO - [room_test 110] jash: Whats up>
+2026-06-21 23:07:59,522 - INFO - [room_test 110] Harsh: nothing much just checking in on the updated version of this tool
+2026-06-21 23:08:09,379 - INFO - [room_test 110] Ketul: ahh I see
+2026-06-21 23:08:16,373 - INFO - [room_test 110] jash: oh nice
+2026-06-21 23:08:33,299 - INFO - [room_test 110] jash: /leave
+2026-06-21 23:08:37,574 - INFO - [room_test 110] jash: hi
+2026-06-21 23:09:15,933 - ERROR - Client error at ('127.0.0.1', 35736): Client requested disconnect
+2026-06-21 23:09:15,934 - INFO - Client disconnected: jash
+2026-06-21 23:09:23,280 - ERROR - Client error at ('127.0.0.1', 58508): Client requested disconnect
+2026-06-21 23:09:23,281 - INFO - Client disconnected: Ketul
+2026-06-21 23:09:28,897 - ERROR - Client error at ('127.0.0.1', 52676): Client requested disconnect
+2026-06-21 23:09:28,897 - INFO - Client disconnected: Harsh
+2026-06-21 23:09:43,804 - INFO - Server shutdown.

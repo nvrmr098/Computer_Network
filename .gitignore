@@ -1,0 +1,4 @@
+__pycache__/
+*.pyc
+task1-chat/logs/*.log
+.vscode/
