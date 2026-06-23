@@ -151,3 +151,51 @@ The implementation focuses on:
 - readability
 - ease of explanation during demonstration
 - required networking functionality for Task 1
+
+
+
+
+
+
+TASK 2 
+# README.md
+
+# Task 2: Wireshark Analysis and Firewall Rules
+
+This folder contains the Task 2 Wireshark traffic analysis for the B205 Computer Networks final project.
+
+The task is based on a provided packet capture file. The capture was inspected using Wireshark to identify network hosts, protocols, applications, user activity, and suspicious or unwanted external traffic. Based on the findings, firewall rules were created using PERMIT and DROP decisions.
+
+## Files
+
+| File                | Purpose                                         |
+| ------------------- | ----------------------------------------------- |
+| `methodology.md`    | Explains how the packet capture was analyzed    |
+| `findings.md`       | Contains the main Wireshark findings            |
+| `firewall-rules.md` | Contains proposed firewall rules                |
+| `report-summary.md` | Short summary for the final report              |
+| `screenshots/`      | Contains Wireshark screenshots used as evidence |
+
+## Main Evidence Collected
+
+* Protocol Hierarchy
+* IPv4 Endpoints
+* IPv4 Conversations
+* DNS filtered traffic
+* HTTP filtered traffic
+* TCP SYN / unusual traffic filters
+
+## Main Internal Network Observed
+
+The internal network appears to use the `10.0.2.0/24` subnet.
+
+Main internal hosts observed:
+
+* `10.0.2.1`
+* `10.0.2.2`
+* `10.0.2.3`
+* `10.0.2.255` broadcast address
+
+A private DNS/router address was also observed:
+
+* `192.168.1.1`
